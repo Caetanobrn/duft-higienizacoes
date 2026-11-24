@@ -2,321 +2,613 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="A DUFT Higienizações transforma a limpeza de sofás, colchões, cadeiras e estofados. Solicite seu orçamento pelo WhatsApp.">
-  <meta name="theme-color" content="#102c50">
-  <title>DUFT Higienizações | Cuidado e limpeza para seus estofados</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
+    <meta name="description" content="DUFT Higienizações: limpeza e higienização profissional de sofás, colchões e estofados no Rio de Janeiro. Mais conforto, cuidado e qualidade para sua casa.">
+
+    <meta name="theme-color" content="#102c50">
+
+    <title>DUFT Higienizações | Cuidado e limpeza para seus estofados</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script src="script.js" defer></script>
 </head>
 
 <body>
-  <div class="topbar">
-    <div class="container topbar-content">
-      <span>Seu ambiente merece cuidado profissional.</span>
-      <a href="https://wa.me/5521980261847" target="_blank" rel="noopener">
-        <span class="topbar-dot"></span> Atendimento pelo WhatsApp
-      </a>
-    </div>
-  </div>
 
-  <header class="header">
-    <div class="container nav-container">
-      <a class="brand" href="#inicio" aria-label="DUFT Higienizações - início">
-        <img src="img/logo.png" alt="DUFT Higienizações">
-      </a>
+    <!-- CABEÇALHO -->
+    <header class="header" id="topo">
+        <div class="container header-container">
 
-      <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
-
-      <nav class="navigation" aria-label="Menu principal">
-        <a href="#inicio">Início</a>
-        <a href="#servicos">Serviços</a>
-        <a href="#resultados">Resultados</a>
-        <a href="#sobre">Sobre nós</a>
-        <a href="#contato" class="nav-cta">Solicitar orçamento <span>↗</span></a>
-      </nav>
-    </div>
-  </header>
-
-  <main>
-    <section class="hero" id="inicio">
-      <div class="hero-shape hero-shape-one"></div>
-      <div class="hero-shape hero-shape-two"></div>
-
-      <div class="container hero-grid">
-        <div class="hero-content">
-          <span class="eyebrow"><span class="eyebrow-line"></span> DUFT HIGIENIZAÇÕES</span>
-
-          <h1>
-            Seu estofado limpo.
-            <span>Seu ambiente renovado.</span>
-          </h1>
-
-          <p class="hero-description">
-            Devolva o cuidado, o conforto e a sensação de limpeza aos seus estofados.
-            Higienização profissional para sofás, colchões, cadeiras e muito mais.
-          </p>
-
-          <div class="hero-actions">
-            <a class="button button-primary" href="https://wa.me/5521980261847?text=Ol%C3%A1!%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento." target="_blank" rel="noopener">
-              Solicitar meu orçamento <span>↗</span>
+            <a href="#inicio" class="logo" aria-label="DUFT Higienizações - Voltar ao início">
+                <img src="img/logo.png" alt="DUFT Higienizações">
             </a>
-            <a class="button button-outline" href="#servicos">Conhecer serviços</a>
-          </div>
 
-          <div class="hero-proof">
-            <div class="proof-icon">✓</div>
-            <div>
-              <strong>Atendimento cuidadoso</strong>
-              <span>Seu estofado tratado com atenção aos detalhes.</span>
+            <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="navigation" id="navigation">
+                <a href="#inicio" class="nav-link">Início</a>
+                <a href="#servicos" class="nav-link">Serviços</a>
+                <a href="#resultados" class="nav-link">Resultados</a>
+                <a href="#sobre" class="nav-link">Sobre nós</a>
+                <a href="#contato" class="nav-contact">Solicitar orçamento</a>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <main>
+
+        <!-- HERO -->
+        <section class="hero" id="inicio">
+            <div class="hero-background"></div>
+
+            <div class="container hero-container">
+
+                <div class="hero-content reveal">
+
+                    <span class="section-tag hero-tag">
+                        <span class="tag-dot"></span>
+                        HIGIENIZAÇÃO PROFISSIONAL
+                    </span>
+
+                    <h1>
+                        Seu estofado merece
+                        <span>um novo cuidado.</span>
+                    </h1>
+
+                    <p>
+                        Mais do que limpeza, proporcionamos cuidado,
+                        conforto e renovação para os ambientes que fazem
+                        parte da sua vida.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="https://wa.me/5521980261847?text=Ol%C3%A1!%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento." class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                            Solicitar orçamento
+                            <span aria-hidden="true">→</span>
+                        </a>
+
+                        <a href="#resultados" class="btn btn-outline">
+                            Ver resultados
+                        </a>
+                    </div>
+
+                    <div class="hero-trust">
+                        <div class="trust-avatars">
+                            <span>+</span>
+                            <span>1,2k</span>
+                        </div>
+
+                        <div>
+                            <strong>Mais de 1.200 famílias atendidas</strong>
+                            <small>Cuidado e dedicação em cada serviço.</small>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="hero-visual reveal">
+                    <div class="hero-image-frame">
+                        <img src="img/sofa-1.jpeg" alt="Estofado higienizado pela DUFT" fetchpriority="high">
+                    </div>
+
+                    <div class="hero-floating-card">
+                        <span class="floating-icon">✦</span>
+                        <div>
+                            <strong>Seu ambiente renovado</strong>
+                            <small>Mais cuidado para sua casa</small>
+                        </div>
+                    </div>
+
+                    <div class="hero-decoration"></div>
+                </div>
+
             </div>
-          </div>
-        </div>
 
-        <div class="hero-visual">
-          <div class="hero-image-frame">
-            <img src="img/poltrona-limpa.jpeg" alt="Serviço profissional de higienização de sofá" class="clickable-image">
-          </div>
-          <div class="hero-floating-card">
-            <span class="floating-icon">✦</span>
-            <div>
-              <strong>Mais cuidado</strong>
-              <span>Para sua casa e sua família</span>
+            <div class="hero-bottom-line"></div>
+        </section>
+
+
+        <!-- NÚMEROS -->
+        <section class="numbers-section">
+            <div class="container numbers-grid">
+
+                <div class="number-item reveal">
+                    <strong>1.200<span>+</span></strong>
+                    <p>Famílias atendidas</p>
+                </div>
+
+                <div class="number-item reveal">
+                    <strong>4<span>+</span></strong>
+                    <p>Anos de experiência</p>
+                </div>
+
+                <div class="number-item reveal">
+                    <strong>100<span>%</span></strong>
+                    <p>Dedicação em cada serviço</p>
+                </div>
+
             </div>
-          </div>
-          <div class="hero-caption">Higienização profissional de estofados</div>
-        </div>
-      </div>
-    </section>
+        </section>
 
-    <section class="trust-strip">
-      <div class="container trust-grid">
-        <div class="trust-item">
-          <strong>+1.200</strong>
-          <span>Famílias atendidas</span>
-        </div>
-        <div class="trust-divider"></div>
-        <div class="trust-item">
-          <strong>4 anos</strong>
-          <span>De experiência</span>
-        </div>
-        <div class="trust-divider"></div>
-        <div class="trust-item">
-          <strong>Cuidado</strong>
-          <span>Em cada atendimento</span>
-        </div>
-        <div class="trust-divider"></div>
-        <div class="trust-item">
-          <strong>Praticidade</strong>
-          <span>Orçamento pelo WhatsApp</span>
-        </div>
-      </div>
-    </section>
 
-    <section class="section services-section" id="servicos">
-      <div class="container">
-        <div class="section-heading">
-          <span class="eyebrow"><span class="eyebrow-line"></span> NOSSOS SERVIÇOS</span>
-          <h2>O cuidado que seus <span>estofados precisam.</span></h2>
-          <p>Com o passar do tempo, os estofados acumulam sujeiras do uso diário. A higienização profissional ajuda a recuperar a sensação de limpeza e bem-estar do seu ambiente.</p>
-        </div>
+        <!-- SERVIÇOS -->
+        <section class="services-section section-padding" id="servicos">
+            <div class="container">
 
-        <div class="services-grid">
-          <article class="service-card">
-            <div class="service-image">
-              <img src="img/sofa-2.jpeg" alt="Higienização de sofá" class="clickable-image">
-              <span class="service-number">01</span>
+                <div class="section-heading reveal">
+                    <span class="section-tag">NOSSOS SERVIÇOS</span>
+
+                    <h2>
+                        Cuidado profissional para
+                        <span>cada detalhe.</span>
+                    </h2>
+
+                    <p>
+                        A higienização adequada ajuda a renovar seus
+                        estofados e proporciona mais cuidado para o
+                        ambiente onde você vive.
+                    </p>
+                </div>
+
+                <div class="services-grid">
+
+                    <article class="service-card reveal">
+                        <div class="service-image">
+                            <img src="img/sofa-2.jpeg" alt="Higienização profissional de sofá" loading="lazy">
+                        </div>
+
+                        <div class="service-content">
+                            <span class="service-number">01</span>
+                            <h3>Higienização de sofás</h3>
+                            <p>
+                                Cuidado especializado para renovar o
+                                aspecto do seu sofá e remover a sujeira
+                                acumulada no uso diário.
+                            </p>
+                            <a href="https://wa.me/5521980261847?text=Ol%C3%A1!%20Gostaria%20de%20um%20or%C3%A7amento%20para%20higieniza%C3%A7%C3%A3o%20de%20sof%C3%A1." target="_blank" rel="noopener noreferrer">
+                                Solicitar orçamento <span>→</span>
+                            </a>
+                        </div>
+                    </article>
+
+
+                    <article class="service-card reveal">
+                        <div class="service-image">
+                            <img src="img/colchao.jpeg" alt="Higienização profissional de colchão" loading="lazy">
+                        </div>
+
+                        <div class="service-content">
+                            <span class="service-number">02</span>
+                            <h3>Higienização de colchões</h3>
+                            <p>
+                                Mais cuidado com o local onde você
+                                descansa. Uma limpeza especializada
+                                para seu colchão.
+                            </p>
+                            <a href="https://wa.me/5521980261847?text=Ol%C3%A1!%20Gostaria%20de%20um%20or%C3%A7amento%20para%20higieniza%C3%A7%C3%A3o%20de%20colch%C3%A3o." target="_blank" rel="noopener noreferrer">
+                                Solicitar orçamento <span>→</span>
+                            </a>
+                        </div>
+                    </article>
+
+
+                    <article class="service-card reveal">
+                        <div class="service-image">
+                            <img src="img/cadeiras.jpeg" alt="Higienização de cadeiras estofadas" loading="lazy">
+                        </div>
+
+                        <div class="service-content">
+                            <span class="service-number">03</span>
+                            <h3>Higienização de cadeiras</h3>
+                            <p>
+                                Limpeza cuidadosa para cadeiras
+                                estofadas, ajudando a recuperar o
+                                aspecto e a conservação.
+                            </p>
+                            <a href="https://wa.me/5521980261847?text=Ol%C3%A1!%20Gostaria%20de%20um%20or%C3%A7amento%20para%20higieniza%C3%A7%C3%A3o%20de%20cadeiras." target="_blank" rel="noopener noreferrer">
+                                Solicitar orçamento <span>→</span>
+                            </a>
+                        </div>
+                    </article>
+
+                </div>
+
             </div>
-            <div class="service-info">
-              <h3>Higienização de sofás</h3>
-              <p>Renove o conforto do seu sofá e cuide do espaço onde você descansa, recebe visitas e aproveita bons momentos.</p>
-              <a href="https://wa.me/5521980261847?text=Ol%C3%A1!%20Tenho%20interesse%20na%20higieniza%C3%A7%C3%A3o%20de%20sof%C3%A1." target="_blank" rel="noopener">Quero higienizar meu sofá <span>↗</span></a>
+        </section>
+
+
+        <!-- RESULTADOS ANTES E DEPOIS -->
+        <section class="results-section section-padding" id="resultados">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <span class="section-tag">RESULTADOS REAIS</span>
+
+                    <h2>
+                        Veja a diferença de uma
+                        <span>higienização profissional.</span>
+                    </h2>
+
+                    <p>
+                        Confira alguns resultados dos nossos serviços.
+                        Arraste o controle para comparar o antes e depois.
+                    </p>
+                </div>
+
+
+                <div class="comparisons-grid">
+
+                    <!-- COMPARAÇÃO 1 -->
+                    <article class="comparison-card reveal">
+
+                        <div class="comparison-stage" tabindex="0" role="button" aria-label="Ampliar comparação antes e depois do primeiro serviço">
+
+                            <img class="comparison-after" src="img/depois1.jpeg" alt="Resultado depois da higienização" loading="lazy">
+
+                            <div class="comparison-before-wrap">
+                                <img class="comparison-before" src="img/antes1.jpeg" alt="Estofado antes da higienização" loading="lazy">
+                            </div>
+
+                            <span class="comparison-label label-before">ANTES</span>
+                            <span class="comparison-label label-after">DEPOIS</span>
+
+                            <span class="comparison-expand" aria-hidden="true">⤢</span>
+
+                        </div>
+
+                        <div class="comparison-info">
+                            <div>
+                                <h3>Renovação do estofado</h3>
+                                <p>Resultado de um serviço realizado pela DUFT.</p>
+                            </div>
+                            <span class="comparison-index">01</span>
+                        </div>
+
+                        <input class="comparison-range" type="range" min="0" max="100" value="50" aria-label="Controle de comparação antes e depois">
+
+                    </article>
+
+
+                    <!-- COMPARAÇÃO 2 -->
+                    <article class="comparison-card reveal">
+
+                        <div class="comparison-stage" tabindex="0" role="button" aria-label="Ampliar comparação antes e depois do segundo serviço">
+
+                            <img class="comparison-after" src="img/depois2.jpeg" alt="Resultado depois da higienização" loading="lazy">
+
+                            <div class="comparison-before-wrap">
+                                <img class="comparison-before" src="img/antes2.jpeg" alt="Estofado antes da higienização" loading="lazy">
+                            </div>
+
+                            <span class="comparison-label label-before">ANTES</span>
+                            <span class="comparison-label label-after">DEPOIS</span>
+
+                            <span class="comparison-expand" aria-hidden="true">⤢</span>
+
+                        </div>
+
+                        <div class="comparison-info">
+                            <div>
+                                <h3>Cuidado em cada detalhe</h3>
+                                <p>Mais uma transformação realizada pela nossa equipe.</p>
+                            </div>
+                            <span class="comparison-index">02</span>
+                        </div>
+
+                        <input class="comparison-range" type="range" min="0" max="100" value="50" aria-label="Controle de comparação antes e depois">
+
+                    </article>
+
+
+                    <!-- COMPARAÇÃO 3 -->
+                    <article class="comparison-card reveal">
+
+                        <div class="comparison-stage" tabindex="0" role="button" aria-label="Ampliar comparação antes e depois do terceiro serviço">
+
+                            <img class="comparison-after" src="img/depois3.jpeg" alt="Resultado depois da higienização" loading="lazy">
+
+                            <div class="comparison-before-wrap">
+                                <img class="comparison-before" src="img/antes3.jpeg" alt="Estofado antes da higienização" loading="lazy">
+                            </div>
+
+                            <span class="comparison-label label-before">ANTES</span>
+                            <span class="comparison-label label-after">DEPOIS</span>
+
+                            <span class="comparison-expand" aria-hidden="true">⤢</span>
+
+                        </div>
+
+                        <div class="comparison-info">
+                            <div>
+                                <h3>Mais vida para seu estofado</h3>
+                                <p>Qualidade e dedicação em cada atendimento.</p>
+                            </div>
+                            <span class="comparison-index">03</span>
+                        </div>
+
+                        <input class="comparison-range" type="range" min="0" max="100" value="50" aria-label="Controle de comparação antes e depois">
+
+                    </article>
+
+                </div>
+
+                <p class="comparison-hint">
+                    <span>↔</span> Arraste o controle para comparar ou clique na imagem para ampliar.
+                </p>
+
             </div>
-          </article>
+        </section>
 
-          <article class="service-card">
-            <div class="service-image">
-              <img src="img/colchao.jpeg" alt="Higienização de colchão" class="clickable-image">
-              <span class="service-number">02</span>
+
+        <!-- BENEFÍCIOS -->
+        <section class="benefits-section section-padding">
+            <div class="container benefits-container">
+
+                <div class="benefits-content reveal">
+                    <span class="section-tag">POR QUE ESCOLHER A DUFT?</span>
+
+                    <h2>
+                        Seu estofado recebe o
+                        <span>cuidado que merece.</span>
+                    </h2>
+
+                    <p>
+                        Cada atendimento é realizado com atenção aos
+                        detalhes, buscando entregar um resultado de
+                        qualidade e uma experiência positiva.
+                    </p>
+
+                    <a href="https://wa.me/5521980261847?text=Ol%C3%A1!%20Gostaria%20de%20conhecer%20os%20servi%C3%A7os%20da%20DUFT." class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                        Fale com a nossa equipe <span>→</span>
+                    </a>
+                </div>
+
+
+                <div class="benefits-list reveal">
+
+                    <div class="benefit-item">
+                        <div class="benefit-icon">✦</div>
+                        <div>
+                            <h3>Atendimento cuidadoso</h3>
+                            <p>Atenção às necessidades de cada cliente e estofado.</p>
+                        </div>
+                    </div>
+
+                    <div class="benefit-item">
+                        <div class="benefit-icon">✓</div>
+                        <div>
+                            <h3>Experiência e dedicação</h3>
+                            <p>Mais de quatro anos trabalhando com higienização.</p>
+                        </div>
+                    </div>
+
+                    <div class="benefit-item">
+                        <div class="benefit-icon">⌂</div>
+                        <div>
+                            <h3>Cuidado com seu ambiente</h3>
+                            <p>Mais atenção à limpeza dos espaços que fazem parte da sua rotina.</p>
+                        </div>
+                    </div>
+
+                    <div class="benefit-item">
+                        <div class="benefit-icon">♡</div>
+                        <div>
+                            <h3>Compromisso com o resultado</h3>
+                            <p>Dedicação para entregar um serviço bem executado.</p>
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
-            <div class="service-info">
-              <h3>Higienização de colchões</h3>
-              <p>Cuide do local onde você recupera suas energias. Mais atenção à limpeza do colchão e ao conforto do seu descanso.</p>
-              <a href="https://wa.me/5521980261847?text=Ol%C3%A1!%20Gostaria%20de%20um%20or%C3%A7amento%20para%20higieniza%C3%A7%C3%A3o%20de%20colch%C3%A3o." target="_blank" rel="noopener">Quero higienizar meu colchão <span>↗</span></a>
+        </section>
+
+
+        <!-- SOBRE O HEITOR -->
+        <section class="about-section section-padding" id="sobre">
+            <div class="container about-container">
+
+                <div class="about-photo-column reveal">
+
+                    <div class="about-photo">
+                        <div class="about-photo-decoration"></div>
+
+                        <img src="img/heitor.png" alt="Heitor, responsável pela DUFT Higienizações" loading="lazy">
+
+                        <div class="about-photo-caption">
+                            <span>À FRENTE DA DUFT</span>
+                            <strong>Heitor</strong>
+                        </div>
+                    </div>
+
+                    <div class="about-photo-note">
+                        <span>✦</span>
+                        <p>Dedicação e cuidado em cada atendimento.</p>
+                    </div>
+
+                </div>
+
+
+                <div class="about-content reveal">
+
+                    <span class="section-tag">QUEM ESTÁ POR TRÁS DA DUFT</span>
+
+                    <h2>
+                        Cuidar do seu ambiente
+                        também é cuidar de
+                        <span>quem você ama.</span>
+                    </h2>
+
+                    <p>
+                        A DUFT Higienizações nasceu com o propósito de
+                        levar mais cuidado e qualidade para os ambientes
+                        das famílias.
+                    </p>
+
+                    <p>
+                        À frente da empresa está Heitor, que trabalha
+                        com dedicação para oferecer um atendimento
+                        atencioso e serviços de higienização realizados
+                        com responsabilidade.
+                    </p>
+
+                    <p>
+                        São mais de quatro anos de experiência e mais
+                        de 1.200 famílias atendidas, sempre buscando
+                        entregar o melhor em cada serviço.
+                    </p>
+
+                    <div class="about-signature">
+                        <span>DUFT</span>
+                        <small>HIGIENIZAÇÕES</small>
+                    </div>
+
+                </div>
+
             </div>
-          </article>
+        </section>
 
-          <article class="service-card">
-            <div class="service-image">
-              <img src="img/cadeiras.jpeg" alt="Higienização de cadeiras" class="clickable-image">
-              <span class="service-number">03</span>
+
+        <!-- CTA FINAL -->
+        <section class="cta-section" id="contato">
+            <div class="container cta-container reveal">
+
+                <div class="cta-decoration"></div>
+
+                <div class="cta-content">
+                    <span class="section-tag cta-tag">SEU ESTOFADO PRECISA DE CUIDADO?</span>
+
+                    <h2>
+                        Vamos dar uma nova vida
+                        <span>ao seu estofado?</span>
+                    </h2>
+
+                    <p>
+                        Entre em contato com a DUFT e solicite seu orçamento.
+                        Estamos prontos para atender você.
+                    </p>
+
+                    <a href="https://wa.me/5521980261847?text=Ol%C3%A1!%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento%20com%20a%20DUFT." class="btn btn-gold" target="_blank" rel="noopener noreferrer">
+                        Solicitar orçamento pelo WhatsApp
+                        <span>→</span>
+                    </a>
+                </div>
+
             </div>
-            <div class="service-info">
-              <h3>Higienização de cadeiras</h3>
-              <p>Deixe cadeiras e assentos mais bem cuidados, valorizando a aparência e a limpeza dos seus ambientes.</p>
-              <a href="https://wa.me/5521980261847?text=Ol%C3%A1!%20Gostaria%20de%20um%20or%C3%A7amento%20para%20higieniza%C3%A7%C3%A3o%20de%20cadeiras." target="_blank" rel="noopener">Quero higienizar minhas cadeiras <span>↗</span></a>
+        </section>
+
+    </main>
+
+
+    <!-- RODAPÉ -->
+    <footer class="footer">
+        <div class="container">
+
+            <div class="footer-main">
+
+                <div class="footer-brand">
+                    <a href="#inicio" class="footer-logo" aria-label="DUFT Higienizações - Voltar ao início">
+                        <img src="img/logo.png" alt="DUFT Higienizações">
+                    </a>
+
+                    <p>
+                        Cuidado profissional para seus estofados.
+                        Mais conforto e atenção para o seu ambiente.
+                    </p>
+                </div>
+
+
+                <div class="footer-column">
+                    <h3>Navegação</h3>
+                    <a href="#inicio">Início</a>
+                    <a href="#servicos">Serviços</a>
+                    <a href="#resultados">Resultados</a>
+                    <a href="#sobre">Sobre nós</a>
+                </div>
+
+
+                <div class="footer-column">
+                    <h3>Contato</h3>
+
+                    <a href="https://wa.me/5521980261847" target="_blank" rel="noopener noreferrer">
+                        WhatsApp
+                    </a>
+
+                    <a href="mailto:contato@dufthigienizacoes.com.br">
+                        E-mail
+                    </a>
+
+                    <span>Rio de Janeiro - RJ</span>
+                </div>
+
             </div>
-          </article>
 
-          <article class="service-card">
-            <div class="service-image">
-              <img src="img/sofa-3.jpeg" alt="Limpeza de estofados" class="clickable-image">
-              <span class="service-number">04</span>
+
+            <div class="footer-bottom">
+                <p>© <span id="current-year"></span> DUFT Higienizações. Todos os direitos reservados.</p>
+                <a href="#inicio">Voltar ao início ↑</a>
             </div>
-            <div class="service-info">
-              <h3>Outros estofados</h3>
-              <p>Tem outro tipo de estofado precisando de cuidado? Converse com nossa equipe e consulte a possibilidade de atendimento.</p>
-              <a href="https://wa.me/5521980261847?text=Ol%C3%A1!%20Tenho%20um%20estofado%20e%20gostaria%20de%20consultar%20a%20higieniza%C3%A7%C3%A3o." target="_blank" rel="noopener">Consultar atendimento <span>↗</span></a>
+
+        </div>
+    </footer>
+
+
+    <!-- BOTÃO FLUTUANTE WHATSAPP -->
+    <a
+        href="https://wa.me/5521980261847?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20servi%C3%A7os."
+        class="whatsapp-float"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Conversar com a DUFT pelo WhatsApp"
+    >
+        <svg viewBox="0 0 32 32" aria-hidden="true">
+            <path d="M16.02 3C8.85 3 3.02 8.81 3.02 15.96c0 2.29.61 4.53 1.78 6.51L3 29l6.7-1.75a13.06 13.06 0 0 0 6.32 1.61h.01c7.16 0 13-5.81 13-12.96 0-3.46-1.35-6.71-3.8-9.15A12.9 12.9 0 0 0 16.02 3Zm0 23.66h-.01c-1.94 0-3.84-.52-5.49-1.5l-.39-.23-3.98 1.04 1.06-3.86-.25-.4a10.72 10.72 0 0 1-1.65-5.75c0-5.92 4.83-10.73 10.72-10.73 2.86 0 5.55 1.11 7.57 3.14a10.64 10.64 0 0 1 3.14 7.59c0 5.91-4.82 10.7-10.72 10.7Zm5.88-8.02c-.32-.16-1.9-.94-2.2-1.05-.3-.11-.51-.16-.72.16-.21.32-.83 1.05-1.02 1.27-.19.21-.38.24-.7.08-.32-.16-1.35-.5-2.57-1.59-.95-.85-1.59-1.9-1.78-2.22-.19-.32-.02-.49.14-.65.14-.14.32-.38.48-.57.16-.19.21-.32.32-.53.11-.21.05-.4-.03-.56-.08-.16-.72-1.73-.99-2.37-.26-.62-.52-.53-.72-.54h-.61c-.21 0-.56.08-.86.4-.3.32-1.13 1.1-1.13 2.68s1.16 3.11 1.32 3.32c.16.21 2.28 3.47 5.52 4.87.77.33 1.37.53 1.84.68.77.24 1.47.21 2.02.13.62-.09 1.9-.78 2.17-1.54.27-.76.27-1.41.19-1.54-.08-.13-.3-.21-.62-.37Z"/>
+        </svg>
+    </a>
+
+
+    <!-- LIGHTBOX DOS COMPARADORES -->
+    <div class="comparison-lightbox" id="comparisonLightbox" aria-hidden="true">
+
+        <button class="lightbox-close" type="button" aria-label="Fechar imagem">
+            &times;
+        </button>
+
+        <div class="lightbox-content">
+
+            <div class="lightbox-stage">
+
+                <img class="lightbox-after" src="" alt="Depois da higienização">
+
+                <div class="lightbox-before-wrap">
+                    <img class="lightbox-before" src="" alt="Antes da higienização">
+                </div>
+
+                <span class="comparison-label label-before">ANTES</span>
+                <span class="comparison-label label-after">DEPOIS</span>
+
             </div>
-          </article>
-        </div>
-      </div>
-    </section>
 
-    <section class="results-section" id="resultados">
-      <div class="container results-layout">
-        <div class="results-intro">
-          <span class="eyebrow eyebrow-light"><span class="eyebrow-line"></span> NOSSO TRABALHO</span>
-          <h2>O resultado aparece nos <span>detalhes.</span></h2>
-          <p>Cada estofado tem suas particularidades. Nosso trabalho é realizado com atenção ao material, às condições da peça e às necessidades de cada cliente.</p>
-          <a class="button button-light" href="https://wa.me/5521980261847?text=Ol%C3%A1!%20Gostaria%20de%20conhecer%20os%20servi%C3%A7os%20da%20DUFT." target="_blank" rel="noopener">Quero esse cuidado também <span>↗</span></a>
+            <input class="lightbox-range" type="range" min="0" max="100" value="50" aria-label="Controle de comparação ampliada">
+
+            <p>Arraste para comparar o antes e depois</p>
+
         </div>
 
-        <div class="results-gallery">
-          <button class="gallery-photo gallery-photo-large" type="button" aria-label="Ampliar foto de higienização de sofá">
-            <img src="img/sofa-6.jpeg" alt="Detalhe de serviço de higienização de sofá" class="clickable-image">
-            <span>Ver imagem <b>↗</b></span>
-          </button>
-          <button class="gallery-photo" type="button" aria-label="Ampliar foto de higienização de sofá">
-            <img src="img/sofa-5.jpeg" alt="Resultado de higienização de sofá" class="clickable-image">
-            <span>Ver imagem <b>↗</b></span>
-          </button>
-          <button class="gallery-photo" type="button" aria-label="Ampliar foto de higienização de cadeiras">
-            <img src="img/sofa-7.jpeg" alt="Serviço de higienização de cadeiras" class="clickable-image">
-            <span>Ver imagem <b>↗</b></span>
-          </button>
-        </div>
-      </div>
-    </section>
-
-    <section class="section benefits-section">
-      <div class="container">
-        <div class="section-heading">
-          <span class="eyebrow"><span class="eyebrow-line"></span> POR QUE ESCOLHER A DUFT?</span>
-          <h2>Mais do que limpar. <span>É cuidar do seu ambiente.</span></h2>
-          <p>Um serviço bem realizado começa com atenção, responsabilidade e respeito por cada espaço atendido.</p>
-        </div>
-
-        <div class="benefits-grid">
-          <article class="benefit-card">
-            <div class="benefit-icon">✦</div>
-            <h3>Atenção aos detalhes</h3>
-            <p>Cada peça merece uma avaliação cuidadosa e um atendimento adequado às suas características.</p>
-          </article>
-          <article class="benefit-card">
-            <div class="benefit-icon">⌂</div>
-            <h3>Cuidado com seu espaço</h3>
-            <p>Tratamos sua casa com respeito, mantendo o foco na qualidade da experiência do atendimento.</p>
-          </article>
-          <article class="benefit-card">
-            <div class="benefit-icon">✓</div>
-            <h3>Experiência e dedicação</h3>
-            <p>Mais de quatro anos de experiência e mais de 1.200 famílias atendidas.</p>
-          </article>
-          <article class="benefit-card">
-            <div class="benefit-icon">♡</div>
-            <h3>Atendimento próximo</h3>
-            <p>Você conversa diretamente com a DUFT para tirar dúvidas e solicitar seu orçamento.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="about-section" id="sobre">
-      <div class="container about-grid">
-        <div class="about-photo">
-          <img src="img/heitor.png" alt="Heitor, responsável pela DUFT Higienizações" class="clickable-image">
-          <div class="about-photo-label">
-            <span>DUFT HIGIENIZAÇÕES</span>
-            <strong>Compromisso em cada atendimento.</strong>
-          </div>
-        </div>
-
-        <div class="about-content">
-          <span class="eyebrow"><span class="eyebrow-line"></span> QUEM ESTÁ POR TRÁS DA DUFT</span>
-          <h2>Cuidado de verdade começa com <span>compromisso.</span></h2>
-          <p>A DUFT nasceu com o propósito de oferecer um serviço de higienização de estofados pautado na dedicação, no cuidado e na satisfação de cada cliente.</p>
-          <p>À frente desse trabalho está Heitor, que acompanha de perto cada atendimento e entende a importância de cuidar dos ambientes onde as pessoas vivem seus momentos mais especiais.</p>
-          <p>São mais de 1.200 famílias atendidas e quatro anos de experiência construídos com trabalho e dedicação.</p>
-          <a class="button button-primary" href="https://wa.me/5521980261847?text=Ol%C3%A1!%20Gostaria%20de%20conversar%20com%20a%20DUFT." target="_blank" rel="noopener">Fale com a DUFT <span>↗</span></a>
-        </div>
-      </div>
-    </section>
-
-    <section class="cta-section" id="contato">
-      <div class="cta-decoration"></div>
-      <div class="container cta-content">
-        <span class="eyebrow eyebrow-light"><span class="eyebrow-line"></span> SEU PRÓXIMO PASSO</span>
-        <h2>Seu estofado está precisando de cuidado?</h2>
-        <p>Não espere a sujeira do dia a dia comprometer a aparência do seu ambiente. Solicite seu orçamento e descubra como a DUFT pode ajudar.</p>
-        <a class="button button-yellow" href="https://wa.me/5521980261847?text=Ol%C3%A1!%20Acessei%20o%20site%20da%20DUFT%20e%20quero%20solicitar%20um%20or%C3%A7amento." target="_blank" rel="noopener">
-          Solicitar orçamento pelo WhatsApp <span>↗</span>
-        </a>
-        <span class="cta-note">Atendimento direto e sem compromisso.</span>
-      </div>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <div class="container footer-main">
-      <div class="footer-brand">
-        <img src="img/logo.png" alt="DUFT Higienizações">
-        <p>Higienização profissional de estofados com cuidado, dedicação e atenção aos detalhes.</p>
-      </div>
-
-      <div class="footer-column">
-        <h3>Navegação</h3>
-        <a href="#inicio">Início</a>
-        <a href="#servicos">Serviços</a>
-        <a href="#resultados">Resultados</a>
-        <a href="#sobre">Sobre a DUFT</a>
-      </div>
-
-      <div class="footer-column">
-        <h3>Atendimento</h3>
-        <a href="https://wa.me/5521980261847" target="_blank" rel="noopener">(21) 98026-1847</a>
-        <a href="mailto:contato@dufthigienizacoes.com.br">contato@dufthigienizacoes.com.br</a>
-        <a href="https://wa.me/5521980261847?text=Ol%C3%A1!%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento." target="_blank" rel="noopener">Solicitar orçamento</a>
-      </div>
     </div>
 
-    <div class="footer-bottom">
-      <div class="container footer-bottom-content">
-        <span>© <span id="current-year"></span> DUFT Higienizações. Todos os direitos reservados.</span>
-        <a href="#inicio">Voltar ao início ↑</a>
-      </div>
-    </div>
-  </footer>
-
-  <a class="whatsapp-float" href="https://wa.me/5521980261847?text=Ol%C3%A1!%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento." target="_blank" rel="noopener" aria-label="Fale com a DUFT pelo WhatsApp">
-    <svg viewBox="0 0 32 32" aria-hidden="true">
-      <path d="M16 3.2A12.6 12.6 0 0 0 5.1 22.1L3.4 28.4l6.5-1.7A12.6 12.6 0 1 0 16 3.2Zm0 22.9a10.3 10.3 0 0 1-5.2-1.4l-.4-.2-3.8 1 1-3.7-.2-.4A10.3 10.3 0 1 1 16 26.1Zm5.7-7.7c-.3-.2-1.8-.9-2.1-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.3-.5-2.5-1.6-.9-.8-1.6-1.8-1.8-2.1-.2-.3 0-.5.1-.6l.5-.6c.2-.2.2-.3.3-.5.1-.2 0-.4 0-.5s-.7-1.7-1-2.3c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1.1 1.1-1.1 2.6s1.1 3 1.2 3.2c.2.2 2.2 3.4 5.3 4.7.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2.1-1.4.3-.7.3-1.3.2-1.4-.1-.2-.3-.3-.6-.4Z"/>
-    </svg>
-  </a>
-
-  <div class="lightbox" aria-hidden="true" role="dialog" aria-label="Visualização ampliada da imagem">
-    <button class="lightbox-close" aria-label="Fechar imagem">&times;</button>
-    <button class="lightbox-prev" aria-label="Imagem anterior">‹</button>
-    <img src="" alt="Imagem ampliada">
-    <button class="lightbox-next" aria-label="Próxima imagem">›</button>
-    <span class="lightbox-counter"></span>
-  </div>
 </body>
 </html>
